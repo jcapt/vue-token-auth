@@ -1,0 +1,53 @@
+{
+  "name": "vue-token-auth",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "spec",
+    "unit": "jest --config test/unit/jest.conf.js --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jcapt/vue-token-auth.git"
+  },
+  "author": "adam.ghtr@gmail.com",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/jcapt/vue-token-auth/issues"
+  },
+  "homepage": "https://github.com/jcapt/vue-token-auth#readme",
+  "devDependencies": {
+    "axios-mock-adapter": "^1.16.0",
+    "babel-core": "^6.22.1",
+    "babel-eslint": "^8.2.1",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-jest": "^21.0.2",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-dynamic-import-node": "^1.2.0",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-plugin-transform-vue-jsx": "^3.5.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "eslint": "^5.14.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-vue": "^5.2.1",
+    "jest": "^24.1.0",
+    "jest-serializer-vue": "^2.0.2",
+    "nightwatch": "^1.0.19",
+    "vue-jest": "^3.0.3",
+    "webpack": "^4.29.4",
+    "webpack-bundle-analyzer": "^3.0.4",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0"
+  }
+}
